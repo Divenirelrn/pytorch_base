@@ -31,4 +31,8 @@ print(torch.ones(2,3))
 print(torch.zeros(2,3))
 print(torch.eye(2,3))
 
+#tensor.new()
+a = torch.rand(3,2)
+print(a.new(3,4).fill_(128))
+
 
